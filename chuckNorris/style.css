@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(69, 69, 69);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+div {
+  background-color: rgb(99, 99, 99);
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  text-align: center;
+  width: 50%;
+  height: 45%;
+  font-family: "Courier New", Courier, monospace;
+  position: relative;
+}
+
+button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  position: absolute;
+  bottom: 65px;
+  transform: translateX(-50%); /* Yatayda ortalamak için */
+  font-family: "Courier New", Courier, monospace;
+  cursor: pointer;
+}
